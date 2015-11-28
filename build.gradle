@@ -10,8 +10,9 @@ version = '0.1'
 
 repositories {
     mavenLocal()
-    jcenter()
     mavenCentral()
+    jcenter()
+    
 
     maven { url 'http://repo.spring.io/libs-release' }
     maven { url "http://repo.springsource.org/repo" }
@@ -117,6 +118,7 @@ buildscript {
 
     repositories {
         mavenLocal()
+        mavenCentral()
         jcenter()
 
         maven { url "http://repo.spring.io/release" }
