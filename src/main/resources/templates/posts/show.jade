@@ -23,5 +23,3 @@ block content
         #{post.getCreatedAt() == post.getUpdatedAt() ? "Created" : "Updated"} 
         | on #{viewHelper.getFormattedDate(post.getCreatedAt())}
 
-    .comments 
-      include ../fragments/disqus
